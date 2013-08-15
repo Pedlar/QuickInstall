@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ac_install_layout"
+    android:layout_width="wrap_content"
+    android:layout_height="fill_parent"
+    android:gravity="right|center_vertical"
+    android:layout_marginLeft="10dp"
+    android:orientation="horizontal"
+    android:clickable="true"
+    >
+	<ImageView
+	    android:id="@+id/install_icon"
+	    android:layout_height="wrap_content"
+	    android:layout_width="wrap_content"
+	    android:paddingRight="4dp"
+	    android:paddingLeft="10dp"
+	    android:src="@drawable/install_icon"
+	/>
+	<TextView
+	    android:id="@+id/install_label"
+	    android:layout_height="wrap_content"
+	    android:layout_width="wrap_content"
+	    android:text="Install Apps"
+	/>
+</LinearLayout>

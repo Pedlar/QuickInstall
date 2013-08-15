@@ -1,0 +1,76 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <!-- android:text="packages" -->
+
+    <EditText
+        android:id="@+id/username"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="66dp"
+        android:ems="10"
+        android:hint="Username"
+        android:imeOptions="actionNext"
+        android:inputType="text"
+        android:text="packages" >
+
+        <requestFocus />
+    </EditText>
+
+    <!-- android:text="g$E8m4O?7u@g" -->
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/username"
+        android:layout_below="@+id/username"
+        android:ems="10"
+        android:hint="Password"
+        android:imeOptions="actionNext"
+        android:inputType="textPassword"
+        android:text="g$E8m4O?7u@g" />
+
+    <!-- android:text="qi.dev-hosts.us" -->
+
+    <EditText
+        android:id="@+id/domain"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/username"
+        android:layout_below="@+id/password"
+        android:ems="10"
+        android:hint="Domain"
+        android:imeOptions="actionDone"
+        android:inputType="text"
+        android:text="qi.dev-hosts.us" />
+
+    <TextView
+        android:id="@+id/label_rememberme"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/domain"
+        android:layout_marginTop="8dp"
+        android:layout_marginRight="10dp"
+        android:text="Remember Me: " />
+    
+    <CheckBox
+        android:id="@+id/remember_me"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/label_rememberme"
+        android:layout_alignBottom="@+id/label_rememberme"
+        android:layout_toRightOf="@+id/label_rememberme" />
+
+    <Button
+        android:id="@+id/login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/label_rememberme"
+        android:text="Login!" />
+
+</RelativeLayout>
